@@ -19,4 +19,14 @@ document.getElementById('add-friend').addEventListener('click', function () {
                   <p>Lorem, ipsum.</p>
                   `;
     container.appendChild(firendDiv);
-})
+});
+
+
+
+
+const add = (sum1, sum2){
+    const result = sum1 + sum2;
+    console.log('result');
+}
+
+add(7, 5);
